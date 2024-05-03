@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>HTML5 űrlap - CNGDZ3</h1>
+    <section id="tartalom" class="urlap">
+        <form id="urlap" name="urlap" action="feldolgozo.php" method="GET">
+            Név: <input type="text" id="nev" name="nev" placeholder="Írd be a neved" autofocus autocomplete="off" required pattern="[a-zA-ZöüóőúéáűíÖÜÓŐÚÉÁŰÍ\s]{5,50}" />
+            <br><br>
+            PIN kód: <input type="text" id="kod" name="kod" placeholder="Írd be a PIN kódod" autocomplete="off" required pattern="[0-9]{4}" />
+            <br><br>
+            Kedvenc gyümölcs: <input type="text" name="gyumolcs" list="gyumolcsok">
+            
+            <datalist id="gyumolcsok">
+                <option value="dinnye">görögdinnye</option>
+                <option value="banán"></option>
+                <option value="ananász"></option>
+                <option value="eper">250FT/kg</option>
+                <option value="alma">180FT/kg</option>
+            </datalist>
+
+            <br><br>
+            
+            Életkor: <input type="number" id="eletkor" name="eletkor" min="1" max="100" step="1" />
+            <br><br>
+            Lábméret: <input type="number" id="labmeret" name="labmeret" min="25" max="50" step="0.5" />
+            <br><br>
+            Önbizalom: 0 <input type="range" id="onbizalom" name="onbizalom" min="0" max="100" step="1" /> 100
+        </form>
+
+        <br><br><br>
+
+        <input type="submit" value="ELKÜLDÖM" form="urlap" formaction="feldolgozo.php" formmethod="POST" />
+        &nbsp;&nbsp;&nbsp;
+        <input type="submit" value="Elküldöm ellenőrzés nélkül" form="urlap"  formnovalidate formtarget="ujablak"/>
+    </section>
+
+    <br><br><br>
+    <footer id="lablec" class="lablec">
+        <p>Forrás: <a href="http://html5doctor.com/html5-forms-introduction-and-new-attributes" target="_blank">http://html5doctor.com/html5-forms-introduction-and-new-attributes</a></p>
+        <p>Formátumok: <a href="http://html5pattern.com" target="_blank">http://html5pattern.com</a></p>
+        <p>JavaScript REGEXP: <a href="http://www.w3schools.com/js/js_regecp.asp" target="_blank">http://www.w3schools.com/js/js_regecp.asp</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header id="fejlec" class="fejlec">Videó lejátszása</header>
+
+        <section id="tartalom">
+
+            <video id="videom" width="640" controls>
+                <source src="cngdz3_video.mp4" type="video/mp4">
+                A böngésződ nem támogatja a videó lejátszását.
+            </video>
+
+            <br /><br />
+
+            <button onclick="videom.play()">indítás</button>
+            <button onclick="videom.pause()">leállítás</button>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick="indit_leallit()">indítás / leállítás</button>
+
+            <br><br>
+
+            <button onclick="videom.volume=0">néma</button>
+            <button onclick="videom.volume=0.2">halk</button>
+            <button onclick="videom.volume=1">hangos</button>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <button onclick="videom.playbackRate=0.2">nagyon lassú</button>
+            <button onclick="videom.playbackRate=0.4">lassú</button>
+            <button onclick="videom.playbackRate=1">normál</button>
+            <button onclick="videom.playbackRate=2">gyors</button>
+            <button onclick="videom.playbackRate=4">nagyon gyors</button>
+            
+            <br><br>
+
+            <button onclick="videom.width=320">kicsi</button>
+            <button onclick="videom.width=640">normál</button>
+            <button onclick="videom.width=1024">nagy</button>
+
+            &nbsp;&nbsp;&nbsp;
+
+            <button onclick="alert(videom.ended)">befejeződött</button>
+            <button onclick="alert(videom.duration)">videó hossza (mp)</button>
+            <button onclick="alert(videom.currentTime)">jelenlegi pozíció</button>
+        </section>
+
+        <footer id="lablec" class="lablec">
+            <p>Forrás: <a href="http://html5doctor.com/html5-forms-introduction-and-new-attributes" target="_blank">http://html5doctor.com/html5-forms-introduction-and-new-attributes</a></p>
+            <p>Formátumok: <a href="http://html5pattern.com" target="_blank">http://html5pattern.com</a></p>
+            <p>JavaScript REGEXP: <a href="http://www.w3schools.com/js/js_regecp.asp" target="_blank">http://www.w3schools.com/js/js_regecp.asp</a></p>
+        </footer>
+
+        <script>
+            var videom = document.getElementById("videom");
+
+            function indit_leallit() {
+                if (videom.paused) {
+                    videom.play();
+                } else {
+                    videom.pause();
+                }
+            }
+
+        </script>
+
+    </body>
+</html>
