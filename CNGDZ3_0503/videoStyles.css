@@ -1,0 +1,17 @@
+.fejlec{
+    font-size: 18pt;
+    font-family: Helvetica;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.lablec{
+    width: 560px;
+    font-size: 10pt;
+    margin-top: 40px;
+    border-top: 3px #888888 double;
+    padding-top: 30px;
+    text-align: right;
+    font-family: Helvetica;
+}
