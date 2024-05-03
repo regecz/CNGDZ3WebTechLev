@@ -1,0 +1,29 @@
+{
+    "kurzusnev": "Adatkezelés XML-es környezetben",
+    "idopont": {
+        "nap": "kedd",
+        "tol": 14,
+        "ig": 16
+    },
+    "helyszin": "In103",
+    "oktato": "Dr. Beadnarik László",
+    "szak": "PTI, MI",
+    "cim":
+    {
+        "street": "Egyetemváros",
+        "city": "Miskolc",
+        "code": 1021
+    },
+    "phone number":
+    [
+        {
+            "type": "Vezetékes:",
+            "number": "0646 555-123"
+        },
+        {
+            "type": "Mobil:",
+            "number": "0670 555-4567"
+        }
+    ]
+
+}
