@@ -1,29 +1,205 @@
-{
-    "kurzusnev": "Adatkezelés XML-es környezetben",
-    "idopont": {
-        "nap": "kedd",
-        "tol": 14,
-        "ig": 16
-    },
-    "helyszin": "In103",
-    "oktato": "Dr. Beadnarik László",
-    "szak": "PTI, MI",
-    "cim":
+[
     {
-        "street": "Egyetemváros",
-        "city": "Miskolc",
-        "code": 1021
-    },
-    "phone number":
-    [
-        {
-            "type": "Vezetékes:",
-            "number": "0646 555-123"
+        "kurzusnev": "Java Programozás",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "12:30",
+            "ig": "15:50"
         },
+        "helyszin": "In/101",
+        "oktato": "Szűcs Miklós",
+        "szak": "MI",
+        "cim":
         {
-            "type": "Mobil:",
-            "number": "0670 555-4567"
-        }
-    ]
-
-}
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+        
+    },
+    {
+        "kurzusnev": "Biztonság és védelem a számtechban",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "16:00",
+            "ig": "19:20"
+        },
+        "helyszin": "In/101",
+        "oktato": "Wagner György",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    },
+    {
+        "kurzusnev": "Optimalizálás",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "12:30",
+            "ig": "15:50"
+        },
+        "helyszin": "A1/320",
+        "oktato": "Dr. Körei Attila",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    },
+    {
+        "kurzusnev": "Adatbázis rendszerek II.",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "16:00",
+            "ig": "19:20"
+        },
+        "helyszin": "In/101",
+        "oktato": "Szűcs Miklós",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    },
+    {
+        "kurzusnev": "Szoftvertechnológia gyakorlatok",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "16:00",
+            "ig": "19:20"
+        },
+        "helyszin": "In/101",
+        "oktato": "Sátán Ádám",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    },
+    {
+        "kurzusnev": "Modern Fizika",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "13:20",
+            "ig": "16:40"
+        },
+        "helyszin": "A1/13",
+        "oktato": "Dr. Bányász István",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    },
+    {
+        "kurzusnev": "Web technologia alapjai",
+        "idopont": {
+            "nap": "péntek",
+            "tol": "12:30",
+            "ig": "15:50"
+        },
+        "helyszin": "Online",
+        "oktato": "Dr. Bednarik László",
+        "szak": "MI",
+        "cim":
+        {
+            "street": "Egyetemváros",
+            "city": "Miskolc",
+            "code": 1021
+        },
+        "phone number":
+        [
+            {
+                "type": "Vezetékes:",
+                "number": "0646 555-123"
+            },
+            {
+                "type": "Mobil:",
+                "number": "0670 555-4567"
+            }
+        ]
+    
+    }
+]
