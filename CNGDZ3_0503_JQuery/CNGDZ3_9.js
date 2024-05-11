@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $("#RDjson").click(function () {
-        $.getJSON("RM_orarend.json", function (data) {
+        $.getJSON("RM_orarendfull.json", function (data) {
             $('#stg').html('<h2>MISKOLCI EGYETEM</h2>');
             data.forEach(function(course) {
                 $('#stg').append('<p><b>Cím: </b></p>' + course.cim.code + ' ' + course.cim.city + ' ' + course.cim.street + '</p>' );
@@ -14,6 +14,9 @@ $(document).ready(function () {
                 $('#stg').append('<p><b>Szak: </b>' + course.szak + '</p>');
                 $('#stg').append('<b>Időpont:</b><br>&nbsp;&nbsp;Nap:&nbsp;' + course.idopont.nap + "<br> &nbsp; &nbspTól: &nbsp;" + course.idopont.tol + "<br>&nbsp;&nbsp;Ig: &nbsp;" + course.idopont.ig + "<br");
                 $('#stg').append('<p><b>Helyszín: </b>' + course.helyszin + '</p>');
+                $('#stg').append('<br>')
+                $('#stg').append('<hr>')
+                $('#stg').append('<br>')
             });
         });
     });
