@@ -19,7 +19,7 @@ $(document).ready(function () {
         }
     });
 
-    $("#subtitle").click(function(){
+    $("#add-subtitle").click(function(){
         if ($("#title").length) {
             $("#title").after('<h3 id="subtitle">HTML -Add elements</h3>');
         }else{
