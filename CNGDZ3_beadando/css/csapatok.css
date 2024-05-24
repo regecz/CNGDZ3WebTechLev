@@ -1,0 +1,181 @@
+.team-container {
+    width: 100%;
+}
+
+.team {
+    display: flex;
+    width: 100%;
+}
+
+.car-logo {
+    width: 60%;
+    object-fit: contain;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    filter: drop-shadow(0 0 0.15rem #000000);
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #E8D3BA;
+    padding: 2rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 0.35rem #7a7a7a);
+}
+
+.team-list {
+    margin: 20px 0;
+}
+
+.team-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.team-btn {
+    width: 20%;
+    height: 3rem;
+    background-color: #FF1E00;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+.team-btn:hover {
+    background-color: #ff7373;
+    cursor: pointer;
+}
+
+.team-btn:active {
+    background-color: #8d1000;
+    scale: 0.9;
+    transition: all 0.1s ease-in-out;
+}
+
+.icon-container {
+    margin: 5dvh;
+    background-color: #fff;
+    height: fit-content;
+    width: fit-content;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+}
+
+#team-content {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(50, 50, 50, 0.8);
+    z-index: 999;
+}
+
+.member-container {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-member {
+    height: 50dvh;
+    filter: drop-shadow(0 0 0.5rem #ffffff);
+    scale: 1;
+}
+
+.member-caption {
+    text-align: center;
+    color: #D9D9D9;
+    text-shadow: 0 0 0.5rem #000000;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.info {
+    width: 80%;
+    background-color: #E8D3BA;
+    padding: 0rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+form {
+    width: 50%;
+    background-color: #E8D3BA;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem 0.5rem;
+    border-radius: 1rem;
+    filter: drop-shadow(0 0 0.5rem #000000);
+}
+
+select {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+input {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+}
+
+#error-name,
+#error-fav-team,
+#error-fav-date,
+#error-sec {
+    color: red;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+button[type="submit"] {
+    width: 30%;
+    height: 2rem;
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    color: #000000;
+    transition: all 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 32px 0 rgba(31, 38, 135, 0.6);
+    cursor: pointer;
+}
+
+button[type="submit"]:active {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.8);
+    transform: scale(0.9);
+}

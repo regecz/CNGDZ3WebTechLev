@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/csapatok.css">
+    <script src="../JQuery/jquery-3.7.1.js"></script>
+    <script src="js/csapatok.js"></script>
+    <title>F1</title>
+
+    <!-- Kanit google betűtipus -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="kepek/logo.png" alt="logo">
+        <div id="nav-container">
+            <a href="index.html" class="nav-btn">Kezdőoldal</a>
+            <a href="csapatok.html" class="nav-btn"> Csapatok </a>
+            <a href="palyak.html" class="nav-btn"> Pályák </a>
+            <a href="versenyek.html" class="nav-btn"> Versenyek </a>
+            <a href="galeria.html" class="nav-btn"> Galéria </a>
+        </div>
+    </nav>
+    <br>
+    <h2 style="text-align: center; color: #FF1E00; background-color: #000000; padding: 3rem; font-size: 3rem;">
+        Kedvenc csapataim</h2>
+    <br><br><br>
+    <section class="team-container">
+        <div class="team">
+            <img class="car-logo" src="kepek/csapatok/mercedes.png" alt="mercedes">
+            <aside>
+                <ul>
+                    <li class="team-list"><b>Rekorddöntő sikerek:</b> 8 konstruktőri és 9 pilótábajnoki cím
+                        zsinórban.</li>
+                    <li class="team-list"><b>Hibrid technológia:</b> Úttörő a Formula-1-ben, hatékonyabb és
+                        fenntarthatóbb autókat eredményez.</li>
+                    <li class="team-list"><b>Csillagos pilóták:</b> Lewis Hamilton, hétszeres világbajnok és George
+                        Russell, tehetséges feltörekvő.</li>
+                </ul>
+            </aside>
+        </div>
+        <br><br>
+        <div class="team-btn-container">
+            <button class="team-btn">Versenyzők megtekintése</button>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <section class="team-container" style="background-color: #FFFFFF; padding: 3rem 0;">
+        <div class="team">
+            <aside>
+                <ul>
+                    <li class="team-list"><b>Domináns szereplő:</b> 4 konstruktőri és 5 pilótábajnoki cím 2010 óta.
+                        Tehetséges pilóták, kiváló csapatmunka, innovatív stratégiák.</li>
+                    <li class="team-list"><b>Fiatal tehetségek:</b> Vettel, Ricciardo, Verstappen mind a Red Bull
+                        kötelékében váltak sztárrá.</li>
+                    <li class="team-list"><b>Marketinggépezet:</b> Energikus márka, egyedi ruházat, extrém
+                        események, hatalmas rajongótábor.</li>
+                </ul>
+            </aside>
+            <img class="car-logo" src="kepek/csapatok/redbullracing.png" alt="redbull">
+        </div>
+        <br><br>
+        <div class="team-btn-container">
+            <button class="team-btn">Versenyzők megtekintése</button>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <section class="team-container">
+        <div class="team">
+            <img class="car-logo" src="kepek/csapatok/ferrari2.png" alt="ferrari">
+            <aside>
+                <ul>
+                    <li class="team-list"><b>Legnagyobb legenda:</b> Legrégebbi és legsikeresebb (16 konstruktőri,
+                        15 pilóta cím) - hagyomány, szenvedély, kiválóság.</li>
+                    <li class="team-list"><b>Ikonikus gépek:</b> Gyönyörű, csúcstechnológiás autók - sebesség és
+                        stílus egyben.</li>
+                    <li class="team-list"><b>Legendás pilóták: </b> Schumacher, Senna, Prost, Alonso - a dicsőség
+                        örökösei.</li>
+                </ul>
+            </aside>
+        </div>
+        <br><br>
+        <div class="team-btn-container">
+            <button class="team-btn">Versenyzők megtekintése</button>
+        </div>
+    </section>
+    <br><br><br><br><br>
+    <section class="team-container" style="background-color: #FFFFFF; padding: 3rem 0;">
+        <div class="team">
+            <aside>
+                <ul>
+                    <li class="team-list"><b>Történelmi nagyság:</b> A McLaren a második legsikeresebb csapat a
+                        Formula-1-ben 12 pilóta- és 8 konstruktőri címmel.</li>
+                    <li class="team-list"><b>Innovációs műhely:</b> Kiváló mérnöki háttérrel rendelkeznek, úttörőnek
+                        számítanak a technológiai fejlesztések terén.</li>
+                    <li class="team-list"><b>Szenvedélyes rajongótábor:</b> Hűséges követők világszerte.</li>
+                </ul>
+            </aside>
+            <img class="car-logo" src="kepek/csapatok/mclaren.png" alt="mclaren">
+        </div>
+        <br><br>
+        <div class="team-btn-container">
+            <button class="team-btn">Versenyzők megtekintése</button>
+        </div>
+    </section>
+    <br><br><br>
+    <h2 style="text-align: center;">Ön is <span style="color: #FF1E00;">F1</span> rajongó?</h2>
+    <br>
+    <form action="">
+        <label for="name">Ön neve:</label>
+        <input type="text" name="name" id="name" pattern="[A-Za-zÁÉÍÓÖŐÚÜŰáéíóöőúüű\s]+" autocomplete="name">
+        <br>
+        <div class="middle" style="display: flex;">
+            <div class="left-side">
+                <label for="fav-color">Kedvenc szín:</label>
+                <input type="color" name="fav-color" id="fav-color" autocomplete="off">
+                <br>
+                <label for="fav-team">Kedvenc csapat:</label>
+                <select name="fav-team" id="fav-team" autocomplete="off">
+                    <option id="default" selected hidden>Kérem válasszon</option>
+                    <option>Mercedes</option>
+                    <option>Red Bull</option>
+                    <option>Ferrari</option>
+                    <option>McLaren</option>
+                    <option>Aston Martin</option>
+                    <option>RB (F1 Team)</option>
+                    <option>Haas</option>
+                    <option>Alpine</option>
+                    <option>Williams</option>
+                    <option>Kick Sauber</option>
+                </select>
+                <br>
+                <label for="fav-racers">Kedvenc pilóta:</label>
+                <input type="text" name="fav-racers" id="fav-racers" list="fav-racers-dl" autocomplete="fav-racers-dl">
+                <datalist id="fav-racers-dl">
+                    <option value="Max Verstappen">Red Bull</option>
+                    <option value="Sergio Perez">Red Bull</option>
+                    <option value="Charles Leclerc">Ferrari</option>
+                    <option value="Carlos Sainz Jr.">Ferrari</option>
+                    <option value="Oliver Bearman">Ferrari</option>
+                    <option value="Lando Norris">McLaren</option>
+                    <option value="Oscar Piastri">McLaren</option>
+                    <option value="George Russell">Mercedes</option>
+                    <option value="Lewis Hamilton">Mercedes</option>
+                    <option value="Fernando Alonso">Aston Martin</option>
+                    <option value="Lance Stroll">Aston Martin</option>
+                    <option value="Yuki Tsunoda">RB (F1 Team)</option>
+                    <option value="Daniel Ricciardo">RB (F1 Team)</option>
+                    <option value="Nico Hülkenberg">Haas</option>
+                    <option value="Kevin Magnussen">Haas</option>
+                    <option value="Esteban Ocon">Alpine</option>
+                    <option value="Pierre Gasly">Alpine</option>
+                    <option value="Alexander Albon">Williams</option>
+                    <option value="Logan Sargeant">Williams</option>
+                    <option value="Zhou Guanyu">Kick Sauber</option>
+                    <option value="Valtteri Bottas">Kick Sauber</option>
+                </datalist>
+            </div>
+            <div class="right-side">
+                <div class="radio-container"
+                    style="text-align: left; width: fit-content; margin-left: auto; margin-right: auto;">
+                    <input type="radio" name="is-follow" id="often" autocomplete="off">
+                    <label for="often">Gyakran követem az <span style="color: #FF1E00;">F1</span>-et</label>
+                    <br>
+                    <input type="radio" name="is-follow" id="sometimes" checked autocomplete="off">
+                    <label for="sometimes">Csak néha követem az <span style="color: #FF1E00;">F1</span>-et</label>
+                    <br>
+                    <input type="radio" name="is-follow" id="no" autocomplete="off">
+                    <label for="no">Nem követem az <span style="color: #FF1E00;">F1</span>-et</label>
+                </div>
+                <br>
+                <label for="fav-date">Ha követi, mióta követi?</label>
+                <input type="date" name="fav-date" id="fav-date">
+            </div>
+        </div>
+        <br>
+        <div class="bottom">
+            <label for="sec">Helyesek az adatok:</label>
+            <input type="checkbox" name="sec" id="sec">
+            <br><br>
+            <button type="submit">Küldés</button>
+        </div>
+
+    </form>
+    <br>
+    <footer>
+        <div style="text-align: center;">© 2024 - Regecz Márk</div>
+        <br><br><br>
+        <div id="footer-bottom-grid">
+            <div style="text-align: left;">
+                <ul style="list-style-type: none;">
+                    <li>CNGDZ3</li>
+                    <li>Mérnökinformatika BSC</li>
+                </ul>
+            </div>
+            <div>
+                <a class="footer-item" href="https://www.formula1.com/" target="_blank">F1 hivatalos oldala</a>
+            </div>
+            <div style="text-align: right;">
+                <ul style="list-style-type: none;">
+                    <li><a class="footer-item" href="index.html">Kezdőoldal</a></li>
+                    <li><a class="footer-item" href="csapatok.html">Csapatok</a></li>
+                    <li><a class="footer-item" href="palyak.html">Pályák</a></li>
+                    <li><a class="footer-item" href="versenyek.html">Versenyek</a></li>
+                    <li><a class="footer-item" href="galeria.html">Galéria</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

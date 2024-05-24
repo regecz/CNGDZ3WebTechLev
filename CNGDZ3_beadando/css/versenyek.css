@@ -1,0 +1,93 @@
+.top-container {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #E8D3BA;
+    height: max-content;
+    padding: 2rem;
+}
+
+figure {
+    height: 100%;
+    align-content: center;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.top-racer {
+    height: 20vw;
+    max-width: 90%;
+    object-fit: cover;
+    filter: drop-shadow(0 0 0.2rem #FF1E00);
+    transition: all 0.3s ease-in-out;
+}
+
+.top-racer:hover {
+    filter: drop-shadow(0 0 0.6rem #FF1E00);
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    width: 20%;
+    height: 3rem;
+    background-color: #FF1E00;
+    border-radius: 2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ff7373;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #8d1000;
+    scale: 0.9;
+    transition: all 0.1s ease-in-out;
+}
+
+#stg {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.racer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0.3rem 1rem;
+    gap: 1rem;
+}
+
+.table-img {
+    height: 100px;
+    filter: drop-shadow(0 0 0.7rem #ffffff);
+}
+
+table {
+    border-collapse: collapse;
+    color: #E8D3BA;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
+}
+
+th {
+    border: 3px solid #FF1E00;
+    background-color: #d10000;
+}
+
+td {
+    text-align: center;
+    background-color: #ff8b7b;
+    border: 2px solid #FF1E00;
+    padding: 0.3rem;
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/versenyek.css">
+    <script src="../JQuery/jquery-3.7.1.js"></script>
+    <script src="js/versenyek.js"></script>
+    <title>F1</title>
+
+    <!-- Kanit google betűtipus -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="kepek/logo.png" alt="logo">
+        <div id="nav-container">
+            <a href="index.html" class="nav-btn">Kezdőoldal</a>
+            <a href="csapatok.html" class="nav-btn"> Csapatok </a>
+            <a href="palyak.html" class="nav-btn"> Pályák </a>
+            <a href="versenyek.html" class="nav-btn"> Versenyek </a>
+            <a href="galeria.html" class="nav-btn"> Galéria </a>
+        </div>
+    </nav>
+    <br>
+    <h1 style="text-align: center;">Aktuális Helyezések</h1>
+    <section class="top-container">
+        <figure>
+            <img class="top-racer" src="" alt="">
+            <figcaption class="name"></figcaption>
+            <figcaption>
+                <p class="rank"></p>
+                <p class="team"></p>
+            </figcaption>
+            <figcaption class="points"></figcaption>
+        </figure>
+        <figure>
+            <img class="top-racer" src="" alt="">
+            <figcaption class="name"></figcaption>
+            <figcaption>
+                <p class="rank"></p>
+                <p class="team"></p>
+            </figcaption>
+            <figcaption class="points"></figcaption>
+        </figure>
+        <figure>
+            <img class="top-racer" src="" alt="">
+            <figcaption class="name"></figcaption>
+            <figcaption>
+                <p class="rank"></p>
+                <p class="team"></p>
+            </figcaption>
+            <figcaption class="points"></figcaption>
+        </figure>
+    </section>
+    <br>
+    <div style="display:flex; justify-content: center;">
+        <button>Összes helyezés megtekintése</button>
+    </div>
+    <br>
+    <section id="stg"></section>
+    <br><br><br><br>
+    <h1 style="text-align: center;">Verseny Naptár</h1>
+    <br>
+    <section>
+        <div class="container" style="margin-left: auto; margin-right: auto;">A Formula-1 a világ legnépszerűbb
+            motorsportja, és a versenynaptár tele van izgalmas versenyekkel, amelyek minden hétvégén lekötik a rajongók
+            figyelmét. A szezon márciusban kezdődik, és novemberben ér véget, a versenyek világszerte, különböző
+            pályákon zajlanak.</div>
+        <br>
+
+        <table>
+            <tr>
+                <th>Verseny neve</th>
+                <th>Dátum</th>
+                <th>Pálya</th>
+                <th>Helyszín</th>
+            </tr>
+            <tr>
+                <td>Bahreini Nagydíj</td>
+                <td>2024. március 2. - 2024. március 4.</td>
+                <td>Bahrain International Circuit</td>
+                <td>Szahír, Bahrein</td>
+            </tr>
+            <tr>
+                <td>Szaúd-arábiai Nagydíj</td>
+                <td>2024. március 9. - 2024. március 11.</td>
+                <td>Jeddah Corniche Circuit</td>
+                <td>Dziddah, Szaúd-Arábia</td>
+            </tr>
+            <tr>
+                <td>Ausztrál Nagydíj</td>
+                <td>2024. március 23. - 2024. március 25.</td>
+                <td>Albert Park Circuit</td>
+                <td>Melbourne, Ausztrália</td>
+            </tr>
+            <tr>
+                <td>Emilia-Romagna Nagydíj</td>
+                <td>2024. április 1. - 2024. április 2.</td>
+                <td>Autodromo Enzo e Dino Ferrari</td>
+                <td>Imola, Olaszország</td>
+            </tr>
+            <tr>
+                <td>Miami Nagydíj</td>
+                <td>2024. május 5. - 2024. május 7.</td>
+                <td>Miami International Autodrome</td>
+                <td>Miami Gardens, Amerikai Egyesült Államok</td>
+            </tr>
+            <tr>
+                <td>Spanyol Nagydíj</td>
+                <td>2024. május 12. - 2024. május 14.</td>
+                <td>Circuit de Barcelona-Catalunya</td>
+                <td>Montmeló, Spanyolország</td>
+            </tr>
+            <tr>
+                <td>Monacói Nagydíj</td>
+                <td>2024. május 26. - 2024. május 28.</td>
+                <td>Circuit de Monaco</td>
+                <td>Monte-Carlo, Monaco</td>
+            </tr>
+            <tr>
+                <td>Kanadai Nagydíj</td>
+                <td>2024. június 16. - 2024. június 18.</td>
+                <td>Circuit Gilles Villeneuve</td>
+                <td>Montréal, Kanada</td>
+            </tr>
+            <tr>
+                <td>Francia Nagydíj</td>
+                <td>2024. június 23. - 2024. június 25.</td>
+                <td>Circuit Paul Ricard</td>
+                <td>Le Castellet, Franciaország</td>
+            </tr>
+            <tr>
+                <td>Osztrák Nagydíj</td>
+                <td>2024. július 7. - 2024. július 9.</td>
+                <td>Red Bull Ring</td>
+                <td>Spielberg, Ausztria</td>
+            </tr>
+            <tr>
+                <td>Brit Nagydíj</td>
+                <td>2024. július 14. - 2024. július 16.</td>
+                <td>Silverstone Circuit</td>
+                <td>Silverstone, Egyesült Királyság</td>
+            </tr>
+            <tr>
+                <td>Magyar Nagydíj</td>
+                <td>2024. július 28. - 2024. július 30.</td>
+                <td>Hungaroring</td>
+                <td>Mogyoród, Magyarország</td>
+            </tr>
+            <tr>
+                <td>Belga Nagydíj</td>
+                <td>2024. augusztus 25. - 2024. augusztus 27.</td>
+                <td>Circuit de Spa-Francorchamps</td>
+                <td>Spa, Belgium</td>
+            </tr>
+            <tr>
+                <td>Holland Nagydíj</td>
+                <td>2024. szeptember 1. - 2024. szeptember 3.</td>
+                <td>Circuit Zandvoort</td>
+                <td>Zandvoort, Hollandia</td>
+            </tr>
+            <tr>
+                <td>Olasz Nagydíj</td>
+                <td>2024. szeptember 8. - 2024. szeptember 10.</td>
+                <td>Autodromo Nazionale di Monza</td>
+                <td>Monza, Olaszország</td>
+            </tr>
+            <tr>
+                <td>Szingapúri Nagydíj</td>
+                <td>2024. szeptember 22. - 2024. szeptember 24.</td>
+                <td>Marina Bay Street Circuit</td>
+                <td>Szingapúr</td>
+            </tr>
+            <tr>
+            <tr>
+                <td>Japán Nagydíj</td>
+                <td>2024. október 6. - 2024. október 8.</td>
+                <td>Suzuka Circuit</td>
+                <td>Suzuka, Japán</td>
+            </tr>
+            <tr>
+                <td>Egyesült Államok Nagydíj</td>
+                <td>2024. október 20. - 2024. október 22.</td>
+                <td>Circuit of the Americas</td>
+                <td>Austin, Amerikai Egyesült Államok</td>
+            </tr>
+            <tr>
+                <td>Mexikói Nagydíj</td>
+                <td>2024. október 27. - 2024. október 29.</td>
+                <td>Autódromo Hermanos Rodríguez</td>
+                <td>Mexikóváros, Mexikó</td>
+            </tr>
+            <tr>
+                <td>Brazil Nagydíj</td>
+                <td>2024. november 17. - 2024. november 19.</td>
+                <td>Autódromo José Carlos Pace</td>
+                <td>São Paulo, Brazília</td>
+            </tr>
+            <tr>
+                <td>Abu Dhabi Nagydíj</td>
+                <td>2024. november 24. - 2024. november 26.</td>
+                <td>Yas Marina Circuit</td>
+                <td>Abu Dhabi, Egyesült Arab Emírségek</td>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <footer>
+        <div style="text-align: center;">© 2024 - Regecz Márk</div>
+        <br><br><br>
+        <div id="footer-bottom-grid">
+            <div style="text-align: left;">
+                <ul style="list-style-type: none;">
+                    <li>CNGDZ3</li>
+                    <li>Mérnökinformatika BSC</li>
+                </ul>
+            </div>
+            <div>
+                <a class="footer-item" href="https://www.formula1.com/" target="_blank">F1 hivatalos oldala</a>
+            </div>
+            <div style="text-align: right;">
+                <ul style="list-style-type: none;">
+                    <li><a class="footer-item" href="index.html">Kezdőoldal</a></li>
+                    <li><a class="footer-item" href="csapatok.html">Csapatok</a></li>
+                    <li><a class="footer-item" href="palyak.html">Pályák</a></li>
+                    <li><a class="footer-item" href="versenyek.html">Versenyek</a></li>
+                    <li><a class="footer-item" href="galeria.html">Galéria</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

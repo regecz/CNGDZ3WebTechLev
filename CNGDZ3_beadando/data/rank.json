@@ -1,0 +1,149 @@
+[
+    {
+        "position": 1,
+        "name": "Max Verstappen",
+        "team": "Red Bull",
+        "points": 161,
+        "imgSrc": "kepek/csapattagok/verstappen.png"
+    },
+    {
+        "position": 2,
+        "name": "Charles Leclerc",
+        "team": "Ferrari",
+        "points": 113,
+        "imgSrc": "kepek/csapattagok/leclerc.png"
+    },
+    {
+        "position": 3,
+        "name": "Sergio Perez",
+        "team": "Red Bull",
+        "points": 107,
+        "imgSrc": "kepek/csapattagok/perez.png"
+    },
+    {
+        "position": 4,
+        "name": "Lando Norris",
+        "team": "McLaren",
+        "points": 101,
+        "imgSrc": "kepek/csapattagok/norris.png"
+    },
+    {
+        "position": 5,
+        "name": "Carlos Sainz Jr.",
+        "team": "Ferrari",
+        "points": 93,
+        "imgSrc": "kepek/csapattagok/sainz.png"
+    },
+    {
+        "position": 6,
+        "name": "Oscar Piastri",
+        "team": "McLaren",
+        "points": 53,
+        "imgSrc": "kepek/csapattagok/piastri.png"
+    },
+    {
+        "position": 7,
+        "name": "George Russell",
+        "team": "Mercedes",
+        "points": 44,
+        "imgSrc": "kepek/csapattagok/russell.png"
+    },
+    {
+        "position": 8,
+        "name": "Lewis Hamilton",
+        "team": "Mercedes",
+        "points": 35,
+        "imgSrc": "kepek/csapattagok/hamilton.png"
+    },
+    {
+        "position": 9,
+        "name": "Fernando Alonso",
+        "team": "Aston Martin",
+        "points": 33,
+        "imgSrc": "kepek/csapattagok/alonso.png"
+    },
+    {
+        "position": 10,
+        "name": "Yuki Tsunoda",
+        "team": "RB (F1 Team)",
+        "points": 15,
+        "imgSrc": "kepek/csapattagok/tsunoda.png"
+    },
+    {
+        "position": 11,
+        "name": "Lance Stroll",
+        "team": "Aston Martin",
+        "points": 11,
+        "imgSrc": "kepek/csapattagok/stroll.png"
+    },
+    {
+        "position": 12,
+        "name": "Oliver Bearman",
+        "team": "Ferrari",
+        "points": 6,
+        "imgSrc": "kepek/csapattagok/bearman.png"
+    },
+    {
+        "position": 13,
+        "name": "Nico Hülkenberg",
+        "team": "Haas",
+        "points": 6,
+        "imgSrc": "kepek/csapattagok/hulkenberg.png"
+    },
+    {
+        "position": 14,
+        "name": "Daniel Ricciardo",
+        "team": "RB (F1 Team)",
+        "points": 5,
+        "imgSrc": "kepek/csapattagok/ricciardo.png"
+    },
+    {
+        "position": 15,
+        "name": "Esteban Ocon",
+        "team": "Alpine",
+        "points": 1,
+        "imgSrc": "kepek/csapattagok/ocon.png"
+    },
+    {
+        "position": 16,
+        "name": "Kevin Magnussen",
+        "team": "Haas",
+        "points": 1,
+        "imgSrc": "kepek/csapattagok/magnussen.png"
+    },
+    {
+        "position": 17,
+        "name": "Alexander Albon",
+        "team": "Williams",
+        "points": 0,
+        "imgSrc": "kepek/csapattagok/albon.png"
+    },
+    {
+        "position": 18,
+        "name": "Zhou Guanyu",
+        "team": "Kick Sauber",
+        "points": 0,
+        "imgSrc": "kepek/csapattagok/zhou.png"
+    },
+    {
+        "position": 19,
+        "name": "Pierre Gasly",
+        "team": "Alpine",
+        "points": 0,
+        "imgSrc": "kepek/csapattagok/gasly.png"
+    },
+    {
+        "position": 20,
+        "name": "Valtteri Bottas",
+        "team": "Kick Sauber",
+        "points": 0,
+        "imgSrc": "kepek/csapattagok/bottas.png"
+    },
+    {
+        "position": 21,
+        "name": "Logan Sargeant",
+        "team": "Williams",
+        "points": 0,
+        "imgSrc": "kepek/csapattagok/sargeant.png"
+    }
+]
