@@ -1,4 +1,51 @@
 $(document).ready(function () {
+
+    function closeTeam (){
+        $(".icon-container").click(function () {
+            $("#team-content").fadeOut(100, function () {
+                $(this).remove();
+            });
+        });
+    };
+    
+    function animatePilots(){
+        $(".team-member").first().mouseenter(function () {
+            $(this).animate({
+                scale: '1.2',
+                marginBottom: '40px',
+                marginTop: '-40px'
+            }, 500);
+            $(".info").first().slideDown(500);
+        });
+        $(".member-container").first().mouseleave(function () {
+            $(".team-member").first().animate({
+                scale: '1',
+                marginBottom: '0px',
+                marginTop: '0px'
+            }, 500);
+            $(".info").first().slideUp(500);
+        });
+    
+        $(".team-member").last().mouseenter(function () {
+            $(this).animate({
+                scale: '1.2',
+                marginBottom: '40px',
+                marginTop: '-40px'
+            }, 500);
+            $(".info").last().slideDown(500);
+        });
+        $(".member-container").last().mouseleave(function () {
+            $(".team-member").last().animate({
+                scale: '1',
+                marginBottom: '0px',
+                marginTop: '0px'
+            }, 500);
+            $(".info").last().slideUp(500);
+        });
+    };
+
+    /* Mercedes csapat */
+    
     $(".team-btn").first().click(function () {
         $("body").append(
             `<div id="team-content">
@@ -25,46 +72,8 @@ $(document).ready(function () {
 
         $("#team-content").hide().fadeIn(1000);
 
-
-        $(".icon-container").click(function () {
-            $("#team-content").fadeOut(100, function () {
-                $(this).remove();
-            });
-        });
-
-        $(".team-member").first().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").first().slideDown(500);
-        });
-        $(".member-container").first().mouseleave(function () {
-            $(".team-member").first().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").first().slideUp(500);
-        });
-
-        $(".team-member").last().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").last().slideDown(500);
-        });
-        $(".member-container").last().mouseleave(function () {
-            $(".team-member").last().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").last().slideUp(500);
-        });
+        closeTeam();
+        animatePilots();
     });
 
     /* RedBull csapat */
@@ -96,45 +105,8 @@ $(document).ready(function () {
         $("#team-content").hide().fadeIn(1000);
 
 
-        $(".icon-container").click(function () {
-            $("#team-content").fadeOut(100, function () {
-                $(this).remove();
-            });
-        });
-
-        $(".team-member").first().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").first().slideDown(500);
-        });
-        $(".member-container").first().mouseleave(function () {
-            $(".team-member").first().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").first().slideUp(500);
-        });
-
-        $(".team-member").last().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").last().slideDown(500);
-        });
-        $(".member-container").last().mouseleave(function () {
-            $(".team-member").last().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").last().slideUp(500);
-        });
+        closeTeam();
+        animatePilots();
     });
 
     /* Ferrari csapat */
@@ -166,45 +138,8 @@ $(document).ready(function () {
         $("#team-content").hide().fadeIn(1000);
 
 
-        $(".icon-container").click(function () {
-            $("#team-content").fadeOut(100, function () {
-                $(this).remove();
-            });
-        });
-
-        $(".team-member").first().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").first().slideDown(500);
-        });
-        $(".member-container").first().mouseleave(function () {
-            $(".team-member").first().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").first().slideUp(500);
-        });
-
-        $(".team-member").last().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").last().slideDown(500);
-        });
-        $(".member-container").last().mouseleave(function () {
-            $(".team-member").last().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").last().slideUp(500);
-        });
+        closeTeam();
+        animatePilots();
     });
 
     /* McLaren csapat */
@@ -235,46 +170,8 @@ $(document).ready(function () {
 
         $("#team-content").hide().fadeIn(1000);
 
-
-        $(".icon-container").click(function () {
-            $("#team-content").fadeOut(100, function () {
-                $(this).remove();
-            });
-        });
-
-        $(".team-member").first().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").first().slideDown(500);
-        });
-        $(".member-container").first().mouseleave(function () {
-            $(".team-member").first().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").first().slideUp(500);
-        });
-
-        $(".team-member").last().mouseenter(function () {
-            $(this).animate({
-                scale: '1.2',
-                marginBottom: '40px',
-                marginTop: '-40px'
-            }, 500);
-            $(".info").last().slideDown(500);
-        });
-        $(".member-container").last().mouseleave(function () {
-            $(".team-member").last().animate({
-                scale: '1',
-                marginBottom: '0px',
-                marginTop: '0px'
-            }, 500);
-            $(".info").last().slideUp(500);
-        });
+        closeTeam();
+        animatePilots(); 
     });
 
     /* Form ellenőrzés */
